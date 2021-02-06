@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SafeZone</string>
+    <string name="name1">Andre Silva</string>
+    <string name="age1">Age: 22 </string>
+    <string name="status1">Negative</string>
+    <string name="Mark">Mark as Positive</string>
+    <string name="Order">Order Medicine</string>
+
+    <!-- <string name="googleMapsApi">AIzaSyAOYtbu4H2WDcIq_AYbMmk_CRY2qbj4iV4</string>-->
+
+    <string name="googleMapsApi">AIzaSyDto1UPFD81yvenpQD2sqOcOiWBlcXyoo0</string>
+
+    <string-array name="places">
+        <item>AinShams University at 8:00
+        </item>
+        <item>ElSerag Mall at 12:00</item>
+        <item>CFC at 15:00</item>
+        <item>Abassya Hospital at 18:00</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

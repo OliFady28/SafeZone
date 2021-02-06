@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/locationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LocationName"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/visitorsCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#027106"
+                />
+            <TextView
+                android:padding="10dp"
+                android:id="@+id/positiveVisitorsCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#F40202"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">597957643455-7m72qg464cfe86devjuc4jhqmu5ah100.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://covid-19-f870c-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">597957643455</string>
+    <string name="google_api_key" translatable="false">AIzaSyDkONScK9ianu9_tduICDE4M_xIIc8sqpM</string>
+    <string name="google_app_id" translatable="false">1:597957643455:android:f3ba0e22ff2affe585ca0a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDkONScK9ianu9_tduICDE4M_xIIc8sqpM</string>
+    <string name="google_storage_bucket" translatable="false">covid-19-f870c.appspot.com</string>
+    <string name="project_id" translatable="false">covid-19-f870c</string>
+</resources>

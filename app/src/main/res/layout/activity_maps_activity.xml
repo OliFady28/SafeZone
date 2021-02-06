@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maps_activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="10dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/search_input_style"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:hint="Enter Address , City or Zip Code"
+            android:textColor="@color/black"
+            android:imeOptions="actionSearch"
+            ></EditText>
+
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/gps"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_baseline_gps_fixed_24">
+
+    </ImageView>
+
+
+</RelativeLayout>

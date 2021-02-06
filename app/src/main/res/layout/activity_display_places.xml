@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3282B8  "
+    tools:context=".displayPlaces">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="452dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/row_wallet_redeem_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:alpha="0.6"
+            android:background="#6a097d"
+            android:scaleType="centerCrop"
+            android:src="@drawable/citystars" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="25dp"
+            android:text="City Stars Mall"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="87dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="75dp"
+            android:text="People Visited : 89"
+            android:textColor="#000000" />
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progressbar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="40"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/ctr2"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:text="40"
+
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="306dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="280dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:alpha="0.3"
+            android:background="#FF0025"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cfc" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="25dp"
+            android:text="Cairo Festival"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="87dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="75dp"
+            android:text="People Visited : 115"
+            android:textColor="#000000" />
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progressbar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="70"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/ctr1"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:text="70"
+
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="309dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="104dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:alpha="0.4"
+            android:background="#ffe227"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ainshams"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="85"
+            android:progressDrawable="@drawable/progress" />
+
+        <TextView
+            android:id="@+id/ctr"
+            android:layout_width="68dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:text="85"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="25dp"
+            android:text="Ainshams University"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="87dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="75dp"
+            android:text="People Visited : 200"
+            android:textColor="#000000" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="31dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
